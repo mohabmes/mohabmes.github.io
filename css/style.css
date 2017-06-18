@@ -1,0 +1,51 @@
+
+body {
+    font-family: "Josefin Sans",sans-serif;
+    font-size: 0.9125em;
+    line-height: 1.4;
+    color: #222222;
+    background-color: #ccc;
+}
+#wrapper{
+  width: 50%;
+  margin: 7% auto;
+}
+h1{
+  display: block;
+  font-size: 3em;
+  text-align: center;
+  line-height: 2;
+  font-weight: 200;
+  letter-spacing: -1px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+p{
+  display: block;
+  text-align: center;
+  font-size: 1.125em;
+  font-weight: 300;
+  margin-top: 0;
+  padding-top: 0;
+}
+blockquote{
+  font-family: monospace;
+  font-weight: 300;
+  display: block;
+  font-size: 1.4em;
+  padding: 30px;
+  margin: 5% auto;
+  border-left: 2px #AAA solid
+}
+
+.contact{
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+}
+.social-icon {
+  width: 50px;
+  height: 50px;
+  margin: 0 5px;
+}
