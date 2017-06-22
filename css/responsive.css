@@ -1,9 +1,28 @@
+@media screen and (max-width: 850px){
+	#wrapper{
+		width: 70%;
+		border: none;
+	}
+	h1{
+	  font-size: 2.5em;
+	}
+	p, blockquote{
+		font-size: .97em;
+	}
+	.social-icon {
+		width: 45px;
+		height: 45px;
+		margin: 0 3px;
+	}
+}
+
 @media screen and (max-width: 660px){
   #wrapper, blockquote{
     margin: 15% auto;
   }
   #wrapper{
     width: 95%;
+    border: none;
   }
   p, blockquote{
     font-size: .9125em;
@@ -13,18 +32,17 @@
     letter-spacing: 0;
   }
   blockquote{
-    width: 80%;
+    width: 90%;
     padding: 15px 0 15px 15px ;
   }
   .social-icon {
     width: 30px;
     height: 30px;
-    margin: 0 3px;
   }
   .contact{
     padding-top: 5px;
   }
-  .overlay img{
-  	visibility: hidden;
+  h1, p{
+    text-align: left;
   }
 }
